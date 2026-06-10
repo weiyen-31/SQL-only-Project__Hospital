@@ -6,7 +6,7 @@ WITH base AS (
        	FROM PATIENTS P
        	),
   
-age_group AS (
+age_group AS（
        	SELECT *,
                      CASE
                   	     WHEN age <= 20 THEN '0-20'
